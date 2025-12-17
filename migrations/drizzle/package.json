@@ -1,0 +1,18 @@
+{
+  "name": "trellis-migrations",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "migrate": "drizzle-kit migrate",
+    "generate": "drizzle-kit generate"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.39.3",
+    "pg": "^8.11.5"
+  }
+}

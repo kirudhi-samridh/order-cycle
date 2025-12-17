@@ -1,0 +1,13 @@
+{
+  "name": "order-cycle-dev",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "node scripts/dev.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "dockerode": "^4.0.9",
+    "wait-on": "^7.2.0"
+  }
+}
